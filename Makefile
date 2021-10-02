@@ -6,7 +6,7 @@
 #    By: nluya <nluya@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/01 20:43:42 by nluya             #+#    #+#              #
-#    Updated: 2021/10/02 15:42:18 by nluya            ###   ########.fr        #
+#    Updated: 2021/10/02 16:32:17 by nluya            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ $(NAME): lib
 	gcc $(FLAGS) -o $(NAME) $(SRC) $(LIB)
 
 bonus: lib
-	gcc -o $(NAME_BON) $(SRC_BON) $(LIB)
+	gcc $(FLAGS) -o $(NAME_BON) $(SRC_BON) $(LIB)
 	
 
 lib:
