@@ -2,6 +2,7 @@ Game rules
 • The game is composed of 2 stacks named a and b.
 
 • To start with:
+
     ◦ the stack a contains a random amount of negative and/or positive numbers
     which cannot be duplicated.
     
